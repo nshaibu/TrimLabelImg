@@ -1,9 +1,9 @@
 # TrimLabelImg
 TrimLabelImg fix any naming associated errors for images annotated with labelImg. https://github.com/tzutalin/labelImg
 
-###
-Usage: trimLabelImgXML.py [-h] [-p path] [-s type] [-m] [-i] [-c transition_string] [-b basename]
 
+# Usage: trimLabelImgXML.py [-h] [-p path] [-s type] [-m] [-i] [-c transition_string] [-b basename]
+''
 --help,     -h                         :Print this help message and exit.
 --path,     -p <directory>             :Specify the directory to scan.
 --scantype, -s [shallow|deep]          :Specify the type of scanning to perform.
@@ -18,3 +18,4 @@ Usage: trimLabelImgXML.py [-h] [-p path] [-s type] [-m] [-i] [-c transition_stri
                                         Example: jpeg->jpg means change all files with 'jpeg'
                                         extension to 'jpg'.
 --basefilename, -b basename            :fallback filename.
+''
